@@ -1,2 +1,2 @@
-# Dmytro-stydylink.github.io
+# Dmytro-studylink.github.io
 Мій перший хостинг
