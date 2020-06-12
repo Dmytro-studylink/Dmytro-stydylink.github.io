@@ -1,0 +1,116 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+/*Стилі для меню*/
+.menu{
+	height: 60px;
+	display: flex;
+	justify-content: center;
+}
+
+nav{
+	width: 1170px;
+	display: flex;
+	justify-content: space-between;
+}
+nav a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background: #ff8261;
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 600;
+	transition: background 0.5s;
+}
+nav a:hover{
+	background: #44a8cc;
+}
+
+
+/*Стилі для банеру*/
+.banner{
+	height: 570px;
+	background: #222836;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner>h1{
+	margin:0;
+	font-size: 80px;
+}
+
+.banner>h2{
+	font-size: 30px;
+}
+
+
+/*Стилі для пошуку*/
+.search{
+	background: #e7f4f8;
+	height: 200px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+input[type=text]{
+	height: 40px;
+	width: 350px;
+	padding: 0 15px;
+	font-size: 20px;
+}
+
+select{
+	height: 40px;
+	width: 130px;
+	font-size: 20px;
+	padding: 0 15px;
+}
+
+input[type=submit]{
+	height: 40px;
+	padding: 0 60px;
+	font-size: 20px;
+	background:  #ff8261;
+	border: 0;
+	color: white;
+}
+
+.search>div{
+	font-size: 30px;
+	font-weight: 600;
+}
+
+
+
+
+/*Стилі для боксів*/
+.hosting{
+	height: 570px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.box{
+	height: 400px;
+	width: 250px;
+	border: 1px solid black;
+}
+
+
+
+
+
+.footer{
+	height: 100px;
+	background: black;
+}
